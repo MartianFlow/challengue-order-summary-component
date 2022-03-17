@@ -1,0 +1,54 @@
+.bg-one,
+.bg-two,
+.bg-three,
+.bg-four{
+    position: absolute;
+}
+
+.bg-one {
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 55%;
+    border-radius: 0 0 40% 55%;
+    background-color: #D6E1FF;
+    z-index: -1;
+}
+
+.bg-two {
+    top: 0;
+    left: calc(50%);
+    width: 50%;
+    height: 60%;
+    background-color: #D6E1FF;
+    z-index: -2;
+}
+
+.bg-three {
+    top: calc(30%);
+    left: calc(50%);
+    width: 50%;
+    height: 70%;
+    border-radius: 40% 50% 0 0;
+    background-color: #DFE8FF;
+    z-index: -2;
+}
+
+.bg-four {
+    top: calc(30%);
+    left: 0;
+    width: 50%;
+    height: 70%;
+    background-color: #DFE8FF;
+    z-index: -2;
+}
+
+.card-container {
+    width: 360px;
+    min-width: 360px;
+    max-width: 640px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #fff;
+
+}
